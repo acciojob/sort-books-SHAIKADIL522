@@ -1,1 +1,28 @@
+.controls {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    flex-wrap: wrap;
+}
 
+select {
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+}
